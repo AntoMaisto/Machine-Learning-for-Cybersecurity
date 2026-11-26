@@ -1,8 +1,8 @@
-🛡️ AI & Cybersecurity
+# 🛡️ AI & Cybersecurity
 A machine learning and deep learning project exploring AI-based approaches for malware classification, network anomaly detection, and SSH attack analysis.
 
 
-📌 Overview
+## 📌 Overview
 This project applies different Artificial Intelligence techniques to cybersecurity problems, including:
 
 
@@ -14,7 +14,7 @@ Mapping malicious behavior to MITRE tactics
 Identifying recurring attack patterns
 The project focuses on comparing different data representations and AI architectures to understand how they affect cybersecurity detection performance.
 
-🦠 Malware Classification
+## 🦠 Malware Classification
 Malware and benign samples are analyzed through sequences of API calls.
 
 
@@ -35,7 +35,7 @@ GraphSAGE
 GAT
 Sequential models demonstrated the importance of preserving API call ordering, while GraphSAGE achieved the best performance among the evaluated GNN architectures.
 
-🔍 Network Anomaly Detection
+## 🔍 Network Anomaly Detection
 Network traffic is analyzed to distinguish normal behavior from attacks such as:
 
 
@@ -54,7 +54,7 @@ DBSCAN
 t-SNE
 The experiments highlight the importance of training anomaly detection models on clean normal traffic and the trade-offs introduced by dimensionality reduction.
 
-🤖 SSH & Bash Attack Analysis
+## 🤖 SSH & Bash Attack Analysis
 Transformer-based models are used to analyze SSH sessions and classify Bash commands according to attacker behavior.
 
 
@@ -68,7 +68,7 @@ UniXcoder achieved the best results, reaching a Macro F1 score of 0.7046, compar
 
 The results demonstrate the advantage of code-oriented pre-training when analyzing shell commands and other code-like cybersecurity data.
 
-🎯 MITRE Tactic Classification
+## 🎯 MITRE Tactic Classification
 SSH commands are classified according to their context and associated attacker behavior.
 
 
@@ -80,7 +80,7 @@ Persistence
 Defense Evasion
 The experiments show that individual commands cannot always be associated with a single tactic. Their meaning depends on the surrounding SSH session and execution context.
 
-🔗 Attack Fingerprinting
+## 🔗 Attack Fingerprinting
 Predicted tactic sequences are combined into behavioral fingerprints representing SSH sessions.
 
 
@@ -90,7 +90,7 @@ Identify recurring attacker behavior
 Detect high-frequency attack patterns
 Track emerging behavioral sequences
 Highlight potential automated attack campaigns
-🛠️ Technologies
+## 🛠️ Technologies
 Languages: Python
 
 Machine Learning: PyTorch, scikit-learn
@@ -107,7 +107,7 @@ Transformers: BERT, UniXcoder, Hugging Face Transformers
 
 Anomaly Detection: One-Class SVM, PCA, K-Means, DBSCAN
 
-🎯 Key Features
+## 🎯 Key Features
 Malware classification from API call sequences
 Sequential behavior modeling with RNNs and LSTMs
 Graph-based malware analysis with GNNs
@@ -116,7 +116,7 @@ Dimensionality reduction with PCA and Autoencoders
 SSH/Bash analysis with Transformer models
 Context-aware MITRE tactic classification
 Behavioral attack fingerprinting
-🚀 Future Improvements
+## 🚀 Future Improvements
 Larger and more balanced training datasets
 Transformer-based modeling of API call sequences
 Advanced GNN architectures
